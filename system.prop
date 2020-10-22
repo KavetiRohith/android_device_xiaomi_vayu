@@ -21,6 +21,11 @@ ro.surface_flinger.set_idle_timer_ms=200
 ro.surface_flinger.set_touch_timer_ms=200
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 
+# Enable blurs, hidden under dev option
+ro.surface_flinger.supports_background_blur=1
+persist.sys.sf.disable_blurs=1
+ro.sf.blurs_are_expensive=1
+
 # GBoard
 ro.com.google.ime.kb_pad_port_b=1
 

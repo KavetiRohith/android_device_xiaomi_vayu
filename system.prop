@@ -54,3 +54,10 @@ ro.vendor.qti.va_aosp.support=1
 
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# PPUI
+ro.ppui.device_name=Poco X3 Pro
+ro.ppui.version=3.7
+ro.ppui.version_code=Ragnarok 
+ro.ppui.is_official=true
+ro.ppui.maintainer_name=Christian de la Cruz

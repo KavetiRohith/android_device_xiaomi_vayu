@@ -1,4 +1,4 @@
-Copyright (C) 2021 ArrowOS
+Copyright (C) 2021 AOSP
 
 Device configuration for Poco X3 Pro
 =========================================

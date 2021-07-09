@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018-2021 ArrowOS
+# Copyright (C) 2018-2021 AOSP
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -11,10 +11,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
-# Inherit common ArrowOS configurations
-$(call inherit-product, vendor/arrow/config/common.mk)
+# Inherit common PPUI configurations
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := arrow_vayu
+# PPUI flags
+CUSTOM_BUILD_TYPE := OFFICIAL
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+
+PRODUCT_NAME := aosp_vayu
 PRODUCT_DEVICE := vayu
 PRODUCT_BRAND := POCO
 PRODUCT_MODEL := Poco X3 Pro
@@ -24,7 +32,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="vayu"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-DEVICE_MAINTAINER := kubersharma001
-TARGET_INCLUDE_PIXEL_CHARGER := true
-

@@ -62,7 +62,7 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # PPUI
 ro.ppui.device_name=Poco X3 Pro
-ro.ppui.version=3.7
-ro.ppui.version_code=Ragnarok 
-ro.ppui.is_official=true
-ro.ppui.maintainer_name=Christian de la Cruz
+ro.ppui.version=3.9
+ro.ppui.version_code=Eternal 
+ro.ppui.is_official=false
+ro.ppui.maintainer_name=Rohith

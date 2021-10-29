@@ -62,7 +62,7 @@ persist.device_config.runtime_native.usap_pool_enabled=true
 
 # PPUI
 ro.ppui.device_name=Poco X3 Pro
-ro.ppui.version=3.9
-ro.ppui.version_code=Eternal 
+ro.ppui.version=3.10
+ro.ppui.version_code=Azrael 
 ro.ppui.is_official=false
 ro.ppui.maintainer_name=Rohith

@@ -11,16 +11,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit device configurations
 $(call inherit-product, device/xiaomi/vayu/device.mk)
 
-# Inherit common PPUI configurations
+# Inherit common AOSP configurations
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-
-# PPUI flags
-CUSTOM_BUILD_TYPE := OFFICIAL
-TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_BOOT_ANIMATION_RES := 720
-TARGET_SUPPORTS_GOOGLE_RECORDER := true
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_BOOT_ANIMATION_RES := 1080
 
 PRODUCT_NAME := aosp_vayu
 PRODUCT_DEVICE := vayu

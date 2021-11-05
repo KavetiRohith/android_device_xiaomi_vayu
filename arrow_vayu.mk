@@ -29,5 +29,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys
 
-DEVICE_MAINTAINER := kubersharma001
+DEVICE_MAINTAINER := Rohith
 

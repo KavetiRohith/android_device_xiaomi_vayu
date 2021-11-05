@@ -99,8 +99,6 @@ ro.vendor.display.ad=1
 ro.vendor.display.ad.sdr_calib_data=/vendor/etc/sdr_config.cfg
 ro.vendor.display.ad.hdr_calib_data=/vendor/etc/hdr_config.cfg
 ro.vendor.display.sensortype=2
-vendor.display.idle_time=0
-vendor.display.idle_time_inactive=0
 
 # DRM
 drm.service.enabled=true
@@ -117,7 +115,8 @@ vendor.gatekeeper.disable_spu=true
 # Graphics
 debug.egl.hw=0
 debug.mdpcomp.logs=0
-debug.sf.disable_backpressure=1
+debug.sf.disable_backpressure=0
+debug.sf.enable_gl_backpressure=1
 debug.sf.hw=0
 persist.sys.sf.native_mode=0
 ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.msmnile.api30
